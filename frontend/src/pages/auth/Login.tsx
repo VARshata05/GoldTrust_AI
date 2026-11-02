@@ -90,6 +90,13 @@ export const Login: React.FC = () => {
             >
               {loading ? 'Authenticating...' : 'Sign In to Portal'}
             </button>
+
+            <div className="text-center pt-2">
+              <span className="text-xs text-slate-400">Don't have an account? </span>
+              <Link to="/register" className="text-xs text-amber-400 hover:text-amber-300 font-semibold">
+                Create an account
+              </Link>
+            </div>
           </form>
 
           {/* Quick Demo Credentials */}
