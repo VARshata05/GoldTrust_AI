@@ -152,3 +152,4 @@ GoldTrust AI implements the 9 standard gold insurance coverages without hardcodi
 
 ## 📄 License & Academic Note
 Developed as an enterprise software architecture demonstration of modern Guidewire-aligned insurance systems, featuring real-world gold assay tracking and explainable AI adjudication.
+

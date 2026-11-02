@@ -337,3 +337,4 @@ export const RegisterJewellery: React.FC = () => {
     </div>
   );
 };
+

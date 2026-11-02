@@ -214,3 +214,4 @@ export const JewelleryList: React.FC = () => {
     </div>
   );
 };
+

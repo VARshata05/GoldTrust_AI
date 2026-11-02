@@ -21,12 +21,14 @@ class IdentityCompareResponse(BaseModel):
     disclaimer: str = "Experimental OpenCV geometric contour & color histogram feature extraction. Not a certified biometric guarantee."
 
 class TageAssessmentRequest(BaseModel):
-    model_config = {'protected_namespaces': ()}
+    model_config = {'protected_namespaces': (), 'extra': 'ignore'}
     asset_id: str
-    claim_id: Optional[int] = None
+    claim_id: Optional[Any] = None
     current_weight: float
     original_weight: float
-    purity: str = "22K"
+    purity: Optional[str] = "22K"
+    original_purity: Optional[str] = None
+    current_purity: Optional[str] = None
     huid: Optional[str] = None
     transformation_count: int = 0
     incident_type: Optional[str] = None

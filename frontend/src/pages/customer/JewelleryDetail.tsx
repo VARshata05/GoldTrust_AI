@@ -302,3 +302,4 @@ export const JewelleryDetail: React.FC = () => {
     </div>
   );
 };
+

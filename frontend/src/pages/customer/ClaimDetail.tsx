@@ -231,3 +231,4 @@ export const ClaimDetail: React.FC = () => {
     </div>
   );
 };
+

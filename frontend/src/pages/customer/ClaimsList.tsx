@@ -107,3 +107,4 @@ export const ClaimsList: React.FC = () => {
     </div>
   );
 };
+
